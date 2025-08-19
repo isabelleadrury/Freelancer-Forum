@@ -36,3 +36,14 @@ function getAverageRate() {
 }
 
 console.log(averageRate);
+
+const carolFreelancer = getCarol();
+
+function getCarol(_, index) {
+  return {
+    name: NAMES[2],
+    occupation: OCCUPATIONS[2],
+    range: PRICE_RANGE[2],
+  };
+}
+console.log(carolFreelancer);
